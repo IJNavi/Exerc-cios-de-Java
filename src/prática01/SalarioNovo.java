@@ -1,4 +1,4 @@
-package prática_1;
+package prática01;
 
 import java.util.Scanner;
 
@@ -21,8 +21,7 @@ public class SalarioNovo
 			salario = salario + abono;
 			System.out.println("O novo salário será: " + salario);
 			
-			leia.close();
-			
+			leia.close();		
 	}
 
 }
