@@ -22,6 +22,7 @@ public class Lista01Exercicio01
 		
 		System.out.println("\nDigite o número C: ");
 		short C = leia.nextShort();
+		leia.close();
 
 		// Aqui é a sessão de verificação da regra de negócio.
 		
@@ -36,9 +37,7 @@ public class Lista01Exercicio01
 		else
 		{
 			System.out.println("\nA Soma de A + B é Igual a C!");
-		}
-		
-		leia.close();
+		}		
 		
 	}
 }

@@ -14,6 +14,7 @@ public class Lista01Exercicio02 {
 
 		System.out.println("\nDigite um número inteiro: ");
 		short A = leia.nextShort();
+		leia.close();
 
 
 		// Aqui é a sessão de verificação da regra de negócio.
@@ -34,8 +35,5 @@ public class Lista01Exercicio02 {
 			
 			System.out.println("\nO Número " + A + " é par e negativo!");
 		}
-		
-		leia.close();
-
 	}
 }

@@ -27,6 +27,7 @@ public class Lista02Exercício05 {
 		
 		System.out.println("\n\n\n==>> Agora entre com a quantidade do produto selecionado: <<==");
 		Byte quantidade = leia.nextByte();
+	    leia.close();
 		
 		//Aqui é feito tanto o processamento e o informe do valor final junto ao informe do nome do produto.
 
@@ -51,8 +52,6 @@ public class Lista02Exercício05 {
 			break;
 		default:
 			System.out.println("\nOpção invalida!");
-			
-	    leia.close();
 		}
 	}
 }

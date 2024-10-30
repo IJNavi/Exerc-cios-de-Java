@@ -32,6 +32,7 @@ public class Lista02Exercício06 {
 		
 		System.out.println("\n\n\n==>> Agora entre com o salário do cargo selecionado: <<==");
 		float salario = leia.nextFloat();
+	    leia.close();
 		
 		//Aqui é exibido na tela o nome do colaborador, cargo e novo salário.
 
@@ -68,8 +69,6 @@ public class Lista02Exercício06 {
 			break;
 		}default:
 			System.out.println("\nOpção invalida!");
-			
-	    leia.close();
 		}
 	}
 }
