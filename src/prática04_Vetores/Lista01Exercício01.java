@@ -1,4 +1,4 @@
-package prática04;
+package prática04_Vetores;
 
 // Bibliotecas/recursos utilizados.
 
